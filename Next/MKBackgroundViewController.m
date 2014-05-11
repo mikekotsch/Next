@@ -63,4 +63,9 @@ const CGFloat MKBackgroundViewControllerTopOffset = 20.0;
     self.contentController.view.frame = rect;
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 @end
