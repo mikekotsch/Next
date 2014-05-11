@@ -10,6 +10,7 @@
 
 @interface MKBackgroundViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+@property (nonatomic, strong) UIViewController *contentController;
+@property (nonatomic, strong) UIImage *image;
 
 @end

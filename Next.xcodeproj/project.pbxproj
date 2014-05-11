@@ -22,7 +22,6 @@
 		2D2A8C46191FE6F200D111B2 /* MKVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A8C44191FE6F200D111B2 /* MKVenueViewController.m */; };
 		2D2A8C47191FE6F200D111B2 /* MKVenueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A8C45191FE6F200D111B2 /* MKVenueViewController.xib */; };
 		2D2A8C4B191FEC1300D111B2 /* MKBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */; };
-		2D2A8C4C191FEC1300D111B2 /* MKBackgroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A8C4A191FEC1300D111B2 /* MKBackgroundViewController.xib */; };
 		4C41B325C19247118273D33A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1EB3D834404ABA59D005 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		2D2A8C45191FE6F200D111B2 /* MKVenueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKVenueViewController.xib; sourceTree = "<group>"; };
 		2D2A8C48191FEC1300D111B2 /* MKBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBackgroundViewController.h; sourceTree = "<group>"; };
 		2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBackgroundViewController.m; sourceTree = "<group>"; };
-		2D2A8C4A191FEC1300D111B2 /* MKBackgroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKBackgroundViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +126,10 @@
 				2D2A8C43191FE6F200D111B2 /* MKVenueViewController.h */,
 				2D2A8C44191FE6F200D111B2 /* MKVenueViewController.m */,
 				2D2A8C45191FE6F200D111B2 /* MKVenueViewController.xib */,
-				2D2A8C26191FDEBE00D111B2 /* Images.xcassets */,
-				2D2A8C15191FDEBE00D111B2 /* Supporting Files */,
 				2D2A8C48191FEC1300D111B2 /* MKBackgroundViewController.h */,
 				2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */,
-				2D2A8C4A191FEC1300D111B2 /* MKBackgroundViewController.xib */,
+				2D2A8C26191FDEBE00D111B2 /* Images.xcassets */,
+				2D2A8C15191FDEBE00D111B2 /* Supporting Files */,
 			);
 			path = Next;
 			sourceTree = "<group>";
@@ -247,7 +244,6 @@
 			files = (
 				2D2A8C47191FE6F200D111B2 /* MKVenueViewController.xib in Resources */,
 				2D2A8C27191FDEBE00D111B2 /* Images.xcassets in Resources */,
-				2D2A8C4C191FEC1300D111B2 /* MKBackgroundViewController.xib in Resources */,
 				2D2A8C19191FDEBE00D111B2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
