@@ -1,5 +1,5 @@
 //
-//  MKViewController.h
+//  MKVenueViewController.h
 //  Next
 //
 //  Created by Mike Kotsch on 11/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MKViewController : UIViewController
+@interface MKVenueViewController : UIViewController
 
 @end

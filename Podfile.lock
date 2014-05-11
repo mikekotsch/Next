@@ -1,0 +1,10 @@
+PODS:
+  - JTCards (0.4.0)
+
+DEPENDENCIES:
+  - JTCards
+
+SPEC CHECKSUMS:
+  JTCards: 1e5703fe946eac69e0a40962e9a473cb9badd089
+
+COCOAPODS: 0.32.1
