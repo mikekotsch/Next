@@ -25,6 +25,8 @@
     self.venueImageView.image = self.venueImage;
     [self.view addSubview:self.venueImageView];
     
+    [self.view sendSubviewToBack:self.venueImageView];
+    
     self.view.layer.cornerRadius = 20;
 }
 

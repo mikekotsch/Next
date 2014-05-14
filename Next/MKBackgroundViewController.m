@@ -30,12 +30,8 @@ const CGFloat MKBackgroundViewControllerTopOffset = 20.0;
 
 - (void)setImage:(UIImage *)image
 {
-    GPUImageiOSBlurFilter *blur = [[GPUImageiOSBlurFilter alloc] init];
-    blur.blurRadiusInPixels = 3;
-    UIImage *blurredImage = [blur imageByFilteringImage:image];
-    
-    _image = blurredImage;
-    self.imageView.image = blurredImage;
+    _image = image;
+    self.imageView.image = image;
 }
 
 - (void)setContentController:(UIViewController *)contentController
@@ -66,6 +62,7 @@ const CGFloat MKBackgroundViewControllerTopOffset = 20.0;
     CGRect rect = self.view.bounds;
     rect.origin.y = MKBackgroundViewControllerTopOffset;
     rect.size.height -= MKBackgroundViewControllerTopOffset;
+    
     self.contentController.view.frame = rect;
 }
 

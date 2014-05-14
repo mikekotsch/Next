@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D040A201923D6AD00D9B38F /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D040A1F1923D6AD00D9B38F /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */; };
 		2D2A8C0F191FDEBE00D111B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2A8C0E191FDEBE00D111B2 /* Foundation.framework */; };
 		2D2A8C11191FDEBE00D111B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2A8C10191FDEBE00D111B2 /* CoreGraphics.framework */; };
 		2D2A8C13191FDEBE00D111B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2A8C12191FDEBE00D111B2 /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		2D2A8C47191FE6F200D111B2 /* MKVenueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A8C45191FE6F200D111B2 /* MKVenueViewController.xib */; };
 		2D2A8C4B191FEC1300D111B2 /* MKBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */; };
 		2DCF9F3C19211374001BC648 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCF9F3B19211374001BC648 /* MapKit.framework */; };
-		2DCF9F3F192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF9F3E192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */; };
 		4C41B325C19247118273D33A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1EB3D834404ABA59D005 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 /* Begin PBXFileReference section */
 		0C12941CD2C64D3BB7FE2AFB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2A7A1EB3D834404ABA59D005 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D040A1F1923D6AD00D9B38F /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg"; path = "../../../../Desktop/next/11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg"; sourceTree = "<group>"; };
 		2D2A8C0B191FDEBE00D111B2 /* Next.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Next.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2A8C0E191FDEBE00D111B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D2A8C10191FDEBE00D111B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +63,6 @@
 		2D2A8C48191FEC1300D111B2 /* MKBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBackgroundViewController.h; sourceTree = "<group>"; };
 		2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBackgroundViewController.m; sourceTree = "<group>"; };
 		2DCF9F3B19211374001BC648 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		2DCF9F3E192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg"; path = "../../../../Desktop/11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 		2DCF9F3D192113C0001BC648 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2DCF9F3E192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */,
+				2D040A1F1923D6AD00D9B38F /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			files = (
 				2D2A8C47191FE6F200D111B2 /* MKVenueViewController.xib in Resources */,
 				2D2A8C27191FDEBE00D111B2 /* Images.xcassets in Resources */,
-				2DCF9F3F192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg in Resources */,
 				2D2A8C19191FDEBE00D111B2 /* InfoPlist.strings in Resources */,
+				2D040A201923D6AD00D9B38F /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
