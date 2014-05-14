@@ -1,1 +1,2 @@
 pod 'JTCards'
+pod 'GPUImage'

@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Mike Kotsch. All rights reserved.
 //
 
+#import <GPUImage.h>
+
 #import "MKBackgroundViewController.h"
 
 const CGFloat MKBackgroundViewControllerTopOffset = 20.0;
@@ -28,8 +30,12 @@ const CGFloat MKBackgroundViewControllerTopOffset = 20.0;
 
 - (void)setImage:(UIImage *)image
 {
-    _image = image;
-    self.imageView.image = image;
+    GPUImageiOSBlurFilter *blur = [[GPUImageiOSBlurFilter alloc] init];
+    blur.blurRadiusInPixels = 3;
+    UIImage *blurredImage = [blur imageByFilteringImage:image];
+    
+    _image = blurredImage;
+    self.imageView.image = blurredImage;
 }
 
 - (void)setContentController:(UIViewController *)contentController

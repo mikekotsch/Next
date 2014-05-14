@@ -10,4 +10,6 @@
 
 @interface MKVenueViewController : UIViewController
 
+@property (nonatomic, strong) UIImage *venueImage;
+
 @end

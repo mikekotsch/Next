@@ -1,10 +1,13 @@
 PODS:
+  - GPUImage (0.1.4)
   - JTCards (0.4.0)
 
 DEPENDENCIES:
+  - GPUImage
   - JTCards
 
 SPEC CHECKSUMS:
+  GPUImage: f9b32e12350792a630e596ffc7b050bea3662670
   JTCards: 1e5703fe946eac69e0a40962e9a473cb9badd089
 
 COCOAPODS: 0.32.1

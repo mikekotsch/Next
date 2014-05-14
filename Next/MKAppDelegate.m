@@ -20,9 +20,8 @@
 
     MKBackgroundViewController *background = [[MKBackgroundViewController alloc] init];
     
-    background.image = [[UIImage imageNamed:@"cartographer"] resizableImageWithCapInsets:UIEdgeInsetsZero
-                                                                            resizingMode:UIImageResizingModeTile];
-    background.contentController = [self cardsControllerWithCardCount:5];
+    background.image = [[UIImage imageNamed:@"back"] resizableImageWithCapInsets:UIEdgeInsetsZero resizingMode:UIImageResizingModeStretch];
+    background.contentController = [self cardsControllerWithCardCount:4];
     
     self.window.rootViewController = background;
     [self.window makeKeyAndVisible];
@@ -35,8 +34,11 @@
     NSMutableArray *cards = [[NSMutableArray alloc] init];
     
     for (int i = 0; i < cardCount; i++) {
+        
         MKVenueViewController *temp = [[MKVenueViewController alloc] init];
-        temp.view.backgroundColor = [UIColor colorWithHue:arc4random()%600/600.0 saturation:0.8 brightness:1 alpha:1];
+        
+        // temp.view.backgroundColor = [UIColor colorWithHue:arc4random()%600/600.0 saturation:0.8 brightness:1 alpha:1];
+        temp.venueImage = [[UIImage imageNamed:@"back"] resizableImageWithCapInsets:UIEdgeInsetsZero resizingMode:UIImageResizingModeStretch];
         
         [cards addObject: temp];
     }

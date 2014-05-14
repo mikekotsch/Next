@@ -22,6 +22,8 @@
 		2D2A8C46191FE6F200D111B2 /* MKVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A8C44191FE6F200D111B2 /* MKVenueViewController.m */; };
 		2D2A8C47191FE6F200D111B2 /* MKVenueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A8C45191FE6F200D111B2 /* MKVenueViewController.xib */; };
 		2D2A8C4B191FEC1300D111B2 /* MKBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */; };
+		2DCF9F3C19211374001BC648 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCF9F3B19211374001BC648 /* MapKit.framework */; };
+		2DCF9F3F192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF9F3E192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */; };
 		4C41B325C19247118273D33A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1EB3D834404ABA59D005 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		2D2A8C45191FE6F200D111B2 /* MKVenueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKVenueViewController.xib; sourceTree = "<group>"; };
 		2D2A8C48191FEC1300D111B2 /* MKBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBackgroundViewController.h; sourceTree = "<group>"; };
 		2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBackgroundViewController.m; sourceTree = "<group>"; };
+		2DCF9F3B19211374001BC648 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2DCF9F3E192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg"; path = "../../../../Desktop/11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCF9F3C19211374001BC648 /* MapKit.framework in Frameworks */,
 				2D2A8C11191FDEBE00D111B2 /* CoreGraphics.framework in Frameworks */,
 				2D2A8C13191FDEBE00D111B2 /* UIKit.framework in Frameworks */,
 				2D2A8C0F191FDEBE00D111B2 /* Foundation.framework in Frameworks */,
@@ -109,6 +114,7 @@
 		2D2A8C0D191FDEBE00D111B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DCF9F3B19211374001BC648 /* MapKit.framework */,
 				2D2A8C0E191FDEBE00D111B2 /* Foundation.framework */,
 				2D2A8C10191FDEBE00D111B2 /* CoreGraphics.framework */,
 				2D2A8C12191FDEBE00D111B2 /* UIKit.framework */,
@@ -129,6 +135,7 @@
 				2D2A8C48191FEC1300D111B2 /* MKBackgroundViewController.h */,
 				2D2A8C49191FEC1300D111B2 /* MKBackgroundViewController.m */,
 				2D2A8C26191FDEBE00D111B2 /* Images.xcassets */,
+				2DCF9F3D192113C0001BC648 /* Images */,
 				2D2A8C15191FDEBE00D111B2 /* Supporting Files */,
 			);
 			path = Next;
@@ -161,6 +168,14 @@
 				2D2A8C36191FDEBE00D111B2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DCF9F3D192113C0001BC648 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF9F3E192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +259,7 @@
 			files = (
 				2D2A8C47191FE6F200D111B2 /* MKVenueViewController.xib in Resources */,
 				2D2A8C27191FDEBE00D111B2 /* Images.xcassets in Resources */,
+				2DCF9F3F192113DB001BC648 /* 11674224_K5Jkg7j-n-JqjsX-Z1TUmsJpSE4FDQYU57EfbxS8Ytc.jpg in Resources */,
 				2D2A8C19191FDEBE00D111B2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

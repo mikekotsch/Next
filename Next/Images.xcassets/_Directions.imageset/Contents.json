@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "cartographer-1.png"
+      "filename" : "_Directions.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "cartographer.png"
+      "filename" : "_Directions@2x.png"
     }
   ],
   "info" : {
