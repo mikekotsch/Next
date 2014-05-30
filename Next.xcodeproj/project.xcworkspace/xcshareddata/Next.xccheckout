@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A3778D82-83B0-4765-A4C1-91591ACD4C05</string>
+	<string>7FAEB057-6CBE-4E1E-8ED2-4090DFAC9CD6</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Next</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/mikekotsch/Next.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Next.xcworkspace</string>
+	<string>Next.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>99F40428-0AE3-4873-933F-F2731A0BA985</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/mikekotsch/Next.git</string>

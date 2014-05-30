@@ -40,4 +40,11 @@
     self.venueImageView.image = blurredImage;
 }
 
+- (IBAction)discardVenue:(UIButton *)sender
+{
+    if ([self.delegate respondsToSelector:@selector(venueViewControllerShouldDismiss)]) {
+        [self.delegate venueViewControllerShouldDismiss];
+    }
+}
+
 @end

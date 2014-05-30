@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol MKVenueViewControllerDelegate;
+
 @interface MKVenueViewController : UIViewController
 
 @property (nonatomic, strong) UIImage *venueImage;
+@property (nonatomic, strong) id<MKVenueViewControllerDelegate> delegate;
 
+@end
+
+
+@protocol MKVenueViewControllerDelegate <NSObject>
+- (void)venueViewControllerShouldDismiss;
 @end

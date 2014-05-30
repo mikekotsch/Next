@@ -7,15 +7,14 @@
 //
 
 #import <JTCardsViewController.h>
-#import "MKVenueViewController.h"
 #import "MKBackgroundViewController.h"
 
 #import "MKAppDelegate.h"
 
 @implementation MKAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     MKBackgroundViewController *background = [[MKBackgroundViewController alloc] init];
@@ -29,13 +28,14 @@
     return YES;
 }
 
-- (JTCardsViewController*)cardsControllerWithCardCount:(NSInteger)cardCount
-{
+- (JTCardsViewController*)cardsControllerWithCardCount:(NSInteger)cardCount {
+    
     NSMutableArray *cards = [[NSMutableArray alloc] init];
     
     for (int i = 0; i < cardCount; i++) {
         
         MKVenueViewController *temp = [[MKVenueViewController alloc] init];
+        temp.delegate = self;
         
         temp.venueImage = [[UIImage imageNamed:@"back"] resizableImageWithCapInsets:UIEdgeInsetsZero resizingMode:UIImageResizingModeStretch];
         
@@ -43,6 +43,11 @@
     }
     
     return [[JTCardsViewController alloc] initWithCards: cards];
+}
+
+- (void)venueViewControllerShouldDismiss
+{
+    NSLog(@"asdas");
 }
 
 @end
